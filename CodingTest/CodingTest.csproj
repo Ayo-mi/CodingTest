@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseballGame.cs" />
+    <Compile Include="GenerateParenthesis.cs" />
     <Compile Include="LongestValidParentheses.cs" />
     <Compile Include="MatchingCharacters.cs" />
     <Compile Include="Program.cs" />
