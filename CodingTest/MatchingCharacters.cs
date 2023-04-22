@@ -1,4 +1,25 @@
-﻿using System;
+﻿/*
+ *  Matching Characters
+ *  
+ *  Given an array k of names, return the characters that exist in every name in
+ *  the array (also take into account the repeated characters).
+ *  
+ *  Example 1:
+ *  Input: k = ["nellie", "leslie","stella"]
+ *  Output: ["e","1","1"]
+ *  
+ *  Example 2:
+ *  Input: k = ["cool", "lock","cook"]
+ *  Output: ["c", "o"]
+ *  
+ *  Constraints:
+ *  1 <= k.length <= 100
+ *  1 <= k[i].length <= 100
+ *  k[i] consists of lower-case English letters.
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
