@@ -3,19 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
-namespace ConsoleApp
+namespace CodingTest
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            var obj = new MatchingCharacters();
-            string[] a = { "nellie", "leslie", "stella" };
-            //Console.WriteLine(obj.CalculatePoints(new List<string> { "5", "-2", "4", "C", "D", "9", "+", "+"}));
-            foreach(var i in obj.Solution(a))
-                Console.WriteLine(i);
+            //   MatchingCharacters Driver
+
+            //var obj = new MatchingCharacters();
+            //string[] a = { "nellie", "leslie", "stella" };
+            ////Console.WriteLine(obj.CalculatePoints(new List<string> { "5", "-2", "4", "C", "D", "9", "+", "+"}));
+            //foreach(var i in obj.Solution(a))
+            //    Console.WriteLine(i);
+
+            //   GenerateParenthesis Driver
+
+            //var ob = new GenerateParenthesis();
+            //var l = ob.GenerateParentheses(3);
+            //foreach(var i in l)
+            //    Console.WriteLine(i);
+
+            //   TreeNode Driver
+
+            //BinaryTree tree = new BinaryTree();
+            //tree.root = new TreeNode(20);
+            //tree.root.left = new TreeNode(9);
+            //tree.root.right = new TreeNode(49);
+            //tree.root.left.right = new TreeNode(12);
+            //tree.root.left.left = new TreeNode(5);
+            //tree.root.right.left = new TreeNode(23);
+            //tree.root.right.right = new TreeNode(52);
+            //tree.root.left.right.right = new TreeNode(12);
+            //tree.root.right.right.left = new TreeNode(50);
+
+            //Console.WriteLine("The sum of left leaves is " + tree.leftLeavesSum(tree.root));
+
             Console.ReadKey();
 
 
